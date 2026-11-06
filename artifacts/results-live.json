@@ -1,0 +1,74 @@
+{
+  "mode": "live",
+  "checks": [
+    {
+      "name": "Wheel and Sepolia read without a wallet",
+      "passed": true,
+      "detail": "IDLE | 0 | 366 | 9,096 | Open"
+    },
+    {
+      "name": "Polling records multiple real responses in the chart",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local fonts load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No horizontal overflow at 320, 390, 720, 960 and 1440",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Product and lookup action appear on the first 390px screen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Axe automated accessibility scan has no violations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Keyboard order and visible focus indicator work on the first screen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Keyboard jump and invalid-address focus/error work",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Populated read-only lookup displays counts, stake and claimable",
+      "passed": true,
+      "detail": "999 | 1 | 0 | 24,283.19"
+    },
+    {
+      "name": "Contract chip copies the complete address",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Reduced motion disables wheel animation; no address storage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Share image exists; no page exceptions or failed local resources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No unexpected console errors or failed network requests",
+      "passed": true,
+      "detail": "No console errors"
+    }
+  ],
+  "browserErrors": [],
+  "consoleErrors": [],
+  "failedResources": [],
+  "failedRequests": []
+}

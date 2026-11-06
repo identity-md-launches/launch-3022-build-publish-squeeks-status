@@ -1,0 +1,167 @@
+{
+  "mode": "fixture",
+  "checks": [
+    {
+      "name": "Wheel and Sepolia read without a wallet",
+      "passed": true,
+      "detail": "ACTIVE | 42.1 | 366 | 9,124 | Open"
+    },
+    {
+      "name": "Polling records multiple real responses in the chart",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local fonts load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No horizontal overflow at 320, 390, 720, 960 and 1440",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Product and lookup action appear on the first 390px screen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Axe automated accessibility scan has no violations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Keyboard order and visible focus indicator work on the first screen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Keyboard jump and invalid-address focus/error work",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Editing during lookup cancels the previous address request",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Populated read-only lookup displays counts, stake and claimable",
+      "passed": true,
+      "detail": "2 | 1 | 1.234 | 24,283.19"
+    },
+    {
+      "name": "Confirmed empty lookup shows required copy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unavailable account is never shown as empty or zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Account snapshot for another deployment is rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Account Retry-After is respected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Keyboard chart range and pause/resume work; polling stops while paused",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Hidden tabs stop polling and resume on visibility",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "IDLE displays a real zero RPM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Counter faults do not appear as rest or contribute RPM samples",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Old sensor readings become Unknown instead of live ACTIVE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Feed error preserves confirmed snapshot and shows required retry copy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Feed automatically recovers without another click",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "One failed contract view stays unknown; independent views remain usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Wrong-chain RPC rejected; protocol flags are unknown",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "RPC traffic is exclusively read-only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Active wheel animation follows the motion preference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Contract chip copies the complete address",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Clipboard permission failure gives a manual-copy recovery",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Reduced motion disables wheel animation; no address storage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Share image exists; no page exceptions or failed local resources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No unexpected console errors or failed network requests",
+      "passed": true,
+      "detail": "2 expected HTTP errors from deliberate outage/rate-limit fixtures"
+    }
+  ],
+  "browserErrors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 429 (Too Many Requests)",
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+  ],
+  "failedResources": [],
+  "failedRequests": [
+    {
+      "host": "api.squeekchain.com",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Explicit path and byte budget: artifacts/submission-budget.md
+!/artifacts/
+!/artifacts/**
+**/node_modules/
+**/.cache/
+**/.npm/
+**/.vite/
+**/.pnpm-store/
+**/*.tsbuildinfo
+test/scratch/
